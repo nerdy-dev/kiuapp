@@ -10,8 +10,11 @@ Plain JS + jQuery
 
 #### Open Source Licenses
 autolinker.js ==> https://github.com/gregjacobs/Autolinker.js
+<br>
 js-cookie.js ==> https://github.com/js-cookie/js-cookie
+<br>
 jQuery ==> https://github.com/jquery/jquery
+<br>
 Bootstrap ==> https://github.com/twbs/bootstrap
 
 
