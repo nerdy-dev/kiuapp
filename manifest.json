@@ -1,0 +1,98 @@
+{
+    "name": "KIU",
+    "short_name": "KIU",
+    "theme_color": "#222222",
+    "background_color": "#222222",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/kiu/",
+    "start_url": "/kiu/",
+    "icons": [{
+            "src": "/kiu/img/icon/72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/kiu/img/icon/96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/kiu/img/icon/120.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/kiu/img/icon/128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/kiu/img/icon/144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/kiu/img/icon/152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/kiu/img/icon/180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/kiu/img/icon/192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/kiu/img/icon/256.png",
+            "sizes": "256256",
+            "type": "image/png"
+        },
+        {
+            "src": "/kiu/img/icon/384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/kiu/img/icon/512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/kiu/img/icon/1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/kiu/img/icon/2048.png",
+            "sizes": "2048x2048",
+            "type": "image/png"
+        },
+        {
+            "src": "/kiu/img/icon/512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [{
+            "src": "/kiu/img/screenshot_1_en.jpg",
+            "sizes": "856x1852",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "/kiu/img/screenshot_2_en.jpg",
+            "sizes": "856x1852",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "/kiu/img/screenshot_3_en.jpg",
+            "sizes": "856x1852",
+            "type": "image/jpeg"
+        }
+    ]
+}

@@ -1,0 +1,151 @@
+:root {
+    --color-white: #222;
+    --color-muted: #666;
+    --color-body: #eee;
+    --color-bg: #e1e1e1;
+    --color-text: #222;
+    --color-card: #fff;
+    --color-main: #193a92;
+    --color-main-alt: #1e49be;
+    --color-tomorrow: #e0be26;
+    --color-no-classes: #54ad48;
+    --color-danger: #ce4c59;
+    --color-danger-alt: #f7dade;
+    --color-warning: #995c1e;
+    --color-warning-alt: #ffe4a8;
+}
+
+.accordion-button {
+    color: #222;
+}
+
+.modal-header {
+    border-color: #888;
+}
+
+.alert-dark {
+    color: #222;
+    background-color: #aaa;
+    border-color: #888;
+}
+
+.link-light {
+    color: #444;
+}
+
+.link-light:hover,
+.link-light:focus {
+    color: #555;
+}
+
+.day-card h5 {
+    color: #000;
+}
+
+hr {
+    color: #000;
+}
+
+.day-class-gap {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.day-card.today .day-class-gap {
+    background-color: rgba(163, 158, 240, 0.397);
+}
+
+.day-card.tomorrow .day-class-gap {
+    background-color: rgba(219, 197, 97, 0.26);
+}
+
+.day-class-time {
+    color: #000;
+}
+
+.day-class-aud {
+    color: #444;
+}
+
+.day-button {
+    color: #666;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.day-button:hover {
+    color: #444;
+}
+
+
+.accordion-button::after {
+    filter: hue-rotate(0deg) brightness(.2) saturate(0);
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: hue-rotate(200deg) brightness(.7) saturate(1);
+}
+
+.accordion-button {
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+.form-control,
+.form-control:focus,
+.form-select {
+    color: #222;
+    background-color: #ccc;
+    border-color: #aaa;
+}
+
+.form-select {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23666' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: 0 0 0 0.25rem rgb(14 18 139 / 25%);
+}
+
+.day-button.disabled.gold {
+    color: #4b4c75 !important;
+}
+
+.day-expanded,
+.search-wrapper,
+.calendar {
+    background-color: rgba(255, 255, 255, .25);
+    box-shadow: inset 0 0 6rem #cdcdcd, inset 0 0 0.5rem #ccc;
+}
+
+.calendar {
+    background-color: rgba(255, 255, 255, .75);
+    box-shadow: inset 0 0 16rem #cdcdcd, inset 0 0 1.5rem #ccc;
+
+
+}
+
+.btn-check:checked+.btn-outline-danger,
+.btn-check:active+.btn-outline-danger,
+.btn-outline-danger:active,
+.btn-outline-danger.active,
+.btn-outline-danger.dropdown-toggle.show,
+.btn-outline-danger:hover {
+    color: rgb(124, 47, 47);
+}
+
+.alert-outline-bm,
+.feature {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-close {
+    filter: brightness(0);
+}
+
+.ec-bld-title,
+.ec-bld-text {
+    color: #763838;
+}
+
+.ec-bld-name {
+    color: #000;
+}
